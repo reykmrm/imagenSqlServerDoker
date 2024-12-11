@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  sqlserver:
+    build:
+      context: .
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "Emmanuel142*"
