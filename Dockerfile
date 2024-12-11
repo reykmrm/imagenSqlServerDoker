@@ -1,5 +1,5 @@
-# Utilizar la imagen oficial de SQL Server
-FROM mcr.microsoft.com/mssql/server:2022-latest
+# Usar la imagen oficial de SQL Server
+docker pull mcr.microsoft.com/mssql/server:2022-latest
 
 # Configurar variables de entorno
 ENV ACCEPT_EULA=Y
