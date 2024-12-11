@@ -1,8 +1,8 @@
 version: '3.8'
+
 services:
   sqlserver:
     build: .
-    container_name: sqlserver
     ports:
       - "1433:1433"
     environment:
